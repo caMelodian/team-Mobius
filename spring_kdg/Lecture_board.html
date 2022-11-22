@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>강의소개</title>
-    <link rel="stylesheet" href="Lecture_detail.css">
+    <title>강좌게시판</title>
+    <link rel="stylesheet" href="Lecture_board.css">
     <link rel="stylesheet" href="header2.css">
     <link rel="stylesheet" href="footer.css">
 </head>
@@ -79,7 +79,7 @@
                 <div class="menu">
                     <div class="container">
                         <span class="span1">
-                            <a style=" color: #1b1c1d;" href="">강의소개</a>
+                            <a href="">강의소개</a>
                         </span>
                         <span class="span2">
                             <a href="">커리큘럼</a>
@@ -91,64 +91,72 @@
                             <a href="">수강전 문의</a>
                         </span>
                         <span class="span5">
-                            <a href="">커뮤니티</a>
+                            <a style=" color: #1b1c1d;"  href="">커뮤니티</a>
                         </span>
                         <span class="span6">
                             <a href="">새소식</a>
                         </span>
                     </div>
                 </div>
-                <div class="content">
-                    <div class="container">
-                        <div style="width: 810px;" class="content_main">
-                            <section id="description">
-                                <div style="margin-top: 12px; font-size: 22px; color: #3a3a40;">
-                                    <strong>초급자</strong>를
-                                    위해 준비한 <br>
-                                    <strong>[백엔드, 웹 개발] 강의입니다.</strong>
+                <div class="board_content">
+                    <div class="bd_content">
+                        <div class="content_body">
+                            <div class="content_main">
+                                <div class="question">
+                                    <div class="title">
+                                        <div class="item">
+                                            <input class="input" value type="text" spellcheck="false" size="large">
+                                        </div>
+                                    </div>
+                                    <div class="main">
+                                        <ul class="question_list">
+                                            <li class="question_conta1ner">
+                                                <div class="qst_detail">
+                                                    <div class="qst_left">
+                                                        <h3>질문있습니다</h3>
+                                                    </div>
+                                                    <p>
+                                                        질문을 해도 될까요?
+                                                        dkdkdkdididusnksadjfmasfilaskdmsakkd
+                                                        askdmaldkmaskdsidskadmlakdmskdisadmkas
+                                                        dkdkdkdididusnksadjfmasfilaskdmsakkd
+                                                        askdmaldkmaskdsidskadmlakdmskdisadmkas
+                                                        dkdkdkdididusnksadjfmasfilaskdmsakkd
+                                                        askdmaldkmaskdsidskadmlakdmskdisadmkas
+                                                    </p>
+                                                    <div class="qst_tag"></div>
+                                                    <div class="qst_footer">
+                                                        <span class="user_name">김동근</span>
+                                                        <span class="nbsp">&nbsp;·&nbsp;</span>
+                                                        <span class="time">12시간 전</span>
+                                                        <span class="nbsp">&nbsp;·&nbsp;</span>
+                                                        <span class="name">스프링 MVC 1편 - 백엔드 웹개발 기술</span>
+                                                    </div>
+                                                    <div class="qst_right">
+                                                        <div>
+                                                            <span class="count">1</span>
+                                                            <span class="description">답변</span>
+                                                        </div>
+                                                        <button class="button">
+                                                            <img style="width: 16px; height: 16px; " src="heart.png">
+                                                            0
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="question_conta1ner"></li>
+                                            <li class="question_conta1ner"></li>
+                                            <li class="question_conta1ner"></li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                <h6 style="font-size: 16px; color: #495057; margin-top: 15px;">
-                                    웹 애플리케이션을 개발할 떄 필요한 모든 웹 기술을 기초부터 이해하고, 완성할수 있습니다.
-                                    스프링 MVC의 핵심 원리와 구조를 이해하고, 더 깊이있는 백엔드 개발자로 성장할 수 있습니다.
-                                </h6>
-                                <section style="margin-top: -30px;" class="section">
-                                    <div class="body_title">
-                                    ✍<br>이런걸<br>배워요!
-                                    </div>
-                                    <div class="body_content">
-                                        <div class="bd_content">
-                                            <img class="check_icon" src="check.png">
-                                            자바 백엔드 웹 기술
-                                        </div>
-                                        <div style="margin-top: 10px;" class="bd_content">
-                                            <img class="check_icon" src="check.png">
-                                            스프링 웹 기술
-                                        </div>
-                                        <div style="margin-top: 10px;" class="bd_content">
-                                            <img class="check_icon" src="check.png">
-                                            스프링 MVC
-                                        </div>
-                                    </div>
-                                </section>
-                                <p style="margin-bottom: 16px; padding: 16px; border-radius: 4px; background: gray; line-height: 1.69; color: #fff; font-size: 16px; text-align: center;">
-                                    <strong>원리를 알아야 핵심이 보인다!</strong>
-                                    <br>
-                                    <strong>김영한의 스프링 MVC기본편</strong>
-                                    👨‍💻
-                                </p>
-                            </section>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div id="div_btn">
-                    <label id="btn">
-                        <input type="button" class="btn">
-                        수강신청 하기
-                    </label>
-                </div>
             </section>
         </main>
-        <footer style="margin-top: -50px;" id="footer">
+        <!-- <footer style="margin-top: -50px;" id="footer">
             <div class="wrapper">
                 <div class="footerTop">
                     <div class="menuList">
@@ -254,7 +262,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> -->
     </div>
 </body>
 </html>

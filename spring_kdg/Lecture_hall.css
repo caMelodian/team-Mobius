@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    text-rendering: optimizeSpeed;
+    text-size-adjust: 100%;
+    font-feature-settings: "ss05";
+    min-height: 100vh;
+    color: #000a12;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.container{
+    margin: 10px;
+    display: flex;
+    margin-left: auto;
+}
+
+.infomation{
+    flex: none;
+    display: block;
+    padding: 0.75rem;
+}
+#infomation2{
+    position: relative;
+    left: 310px;
+    top : -300px;
+    
+}
+#infomation3{
+    position: relative;
+    left: 620px;
+    top : -600px;
+}
+
+#infomation4{
+    position: relative;
+    left: 930px;
+    top : -900px;
+}
+
+#infomation5{
+    position: relative;
+    left: 1240px;
+    top : -1200px;
+}

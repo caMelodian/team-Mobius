@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>강의 등록</title>
+    <link rel="stylesheet" href="teacher_lectuer_apply.css" />
+  </head>
+  <body>
+    <!-- ----------
+        강의 등록 페이지
+    -------------->
+    <main class="lecture-register">
+      <div class="lecture-register-wrapper">
+        <div class="lectuer-register-container">
+          <!-- 강의 등록 페이지 title -->
+          <div class="register-title-container">
+            <div class="register-title">강의 등록</div>
+          </div>
+
+          <!-- -----------
+            강의 등록 주내용 시작 
+            ---------------->
+          <!-- 원하는 항목으로 이동하는 tab menu -->
+          <div class="tab-menu-container">
+            <div class="tab-1">기본정보</div>
+            <div class="tab-2">경력 및 교육</div>
+            <div class="tab-3">보유역량</div>
+            <div class="tab-4">추가정보</div>
+          </div>
+
+          <form action="#" class="lecture-input-form">
+            <!-- tab-1 내용 -->
+            <div class="tab-1-wrapper">
+              <div class="tab-1-container">
+                <div class="tab-title-container">
+                  <div class="first-title">저는 이런 사람 입니다</div>
+                  <div class="second-title">기본정보</div>
+                </div>
+                <!-- 유의사항 메세지 -->
+                <div class="notice-message-container">
+                  <div class="notice-message">정확하게 입력해 주세요!</div>
+                </div>
+
+                <!-- 이름 & 핸드폰 번호 입력 -->
+                <div class="name-phone-number-container">
+                  <div class="name-input-container">
+                    <div class="input-title">기관명(이름)</div>
+                    <input type="text" class="type1" placeholder="등록시 사용될 이름을 입력해 주세요" />
+                  </div>
+                  <div class="phone-number-input-container">
+                    <div class="input-title">휴대폰 번호</div>
+                    <input type="text" class="type1" placeholder="등록시 사용될 이름을 입력해 주세요" />
+                  </div>
+                </div>
+                <!-- 이메일 입력 -->
+                <div class="email-input-container">
+                  <div class="input-title">이메일</div>
+                  <input type="text" class="type2" placeholder="이메일" />
+                </div>
+                <!-- 주소 입력 -->
+                <div class="address-input-container">
+                  <div class="input-title">주소</div>
+                  <div class="address1-address2-container">
+                    <div class="input-address1">
+                      <input type="text" placeholder="주소" />
+                    </div>
+                    <div class="input-address2">
+                      <input type="text" placeholder="상세주소" />
+                    </div>
+                  </div>
+                </div>
+                <!-- 강의 직군 -->
+                <div class="lecture-category-input-container">
+                  <div class="input-title">
+                    <select name="lecture-category">
+                      <option value="lang">언어</option>
+                      <option value="it">IT</option>
+                      <option value="pe">체육</option>
+                      <option value="math">수학</option>
+                      <option value="science">과학</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="teacher_lectuer_apply.js"></script>
+</html>

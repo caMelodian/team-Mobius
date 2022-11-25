@@ -3,7 +3,7 @@
 footer
 ------
 */
-footer#footer {
+footer.footer {
     background: #303740;
     padding: 0;
 }

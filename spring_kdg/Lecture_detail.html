@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-    <div id="root">
-        <header id="header">
+    <div class="root">
+        <header class="header">
             <div class="container">
                 <div class="top_header">
                     <div class="top_logo">
@@ -58,18 +58,18 @@
                 </div>
                 </div>
         </header>
-        <main id="main">
-            <section id="section">
+       <main class="main">
+            <section class="section_start">
                 <div class="banner">
                     <div class="banner_img">
-                        <img style="width: 440px; height: 286px;" src="https://cdn.inflearn.com/public/courses/326674/cover/4657d793-56a4-42f3-9d44-dc88d125a49e">
+                        <img class="bannerImg" src="https://cdn.inflearn.com/public/courses/326674/cover/4657d793-56a4-42f3-9d44-dc88d125a49e">
                     </div>
                     <div class="explanation">
                         <div class="programing"><span class="box">Best</span> 개발·프로그래밍 > 백엔드</div>
-                        <div class="a" style="font-size: 26px; position: relative; bottom: -15px; ">스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술</div>
-                        <div style="position: relative; bottom: -90px;">1242개의 수강평 · 12746명의 수강생</div>
-                        <a style="color: white; position: relative; bottom: -95px;" href="">김영한</a>
-                        <div style="font-size: 17px; color: white; position: relative; bottom: -100px;">
+                        <div class="program_detail" >스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술</div>
+                        <div class="program_detail2">1242개의 수강평 · 12746명의 수강생</div>
+                        <a class="program_name" href="">김영한</a>
+                        <div class="program_detail3" >
                             # 
                             <a class="a_tag" href="" >MVC</a> 
                             <a class="a_tag" href="">Spring</a>
@@ -79,10 +79,7 @@
                 <div class="menu">
                     <div class="container">
                         <span class="span1">
-                            <a style=" color: #1b1c1d;" href="">강의소개</a>
-                        </span>
-                        <span class="span2">
-                            <a href="">커리큘럼</a>
+                            <a href="">강의소개</a>
                         </span>
                         <span class="span3">
                             <a href="">수강평</a>
@@ -93,25 +90,22 @@
                         <span class="span5">
                             <a href="">커뮤니티</a>
                         </span>
-                        <span class="span6">
-                            <a href="">새소식</a>
-                        </span>
                     </div>
                 </div>
                 <div class="content">
                     <div class="container">
-                        <div style="width: 810px;" class="content_main">
-                            <section id="description">
-                                <div style="margin-top: 12px; font-size: 22px; color: #3a3a40;">
+                        <div class="content_main">
+                            <section class="description">
+                                <div class="description_explanation">
                                     <strong>초급자</strong>를
                                     위해 준비한 <br>
                                     <strong>[백엔드, 웹 개발] 강의입니다.</strong>
                                 </div>
-                                <h6 style="font-size: 16px; color: #495057; margin-top: 15px;">
+                                <h6 >
                                     웹 애플리케이션을 개발할 떄 필요한 모든 웹 기술을 기초부터 이해하고, 완성할수 있습니다.
                                     스프링 MVC의 핵심 원리와 구조를 이해하고, 더 깊이있는 백엔드 개발자로 성장할 수 있습니다.
                                 </h6>
-                                <section style="margin-top: -30px;" class="section">
+                                <section class="section">
                                     <div class="body_title">
                                     ✍<br>이런걸<br>배워요!
                                     </div>
@@ -130,7 +124,7 @@
                                         </div>
                                     </div>
                                 </section>
-                                <p style="margin-bottom: 16px; padding: 16px; border-radius: 4px; background: gray; line-height: 1.69; color: #fff; font-size: 16px; text-align: center;">
+                                <p class="banner_explanation">
                                     <strong>원리를 알아야 핵심이 보인다!</strong>
                                     <br>
                                     <strong>김영한의 스프링 MVC기본편</strong>
@@ -140,15 +134,23 @@
                         </div>
                     </div>
                 </div>
-                <div id="div_btn">
-                    <label id="btn">
-                        <input type="button" class="btn">
-                        수강신청 하기
-                    </label>
+                <div class="btn_all">
+                    <div class="div_btn">
+                        <label class="btn">
+                            <input type="button" class="btn_in">
+                            <a class="btn_a" href="">수강신청 하기</a>
+                        </label>
+                    </div>
+                    <div class="div_btn2">
+                        <label class="btn2">
+                            <input type="button" class="btn2_in">
+                            <a class="btn_a" href="">강좌 게시판 바로가기</a>
+                        </label>
+                    </div>
                 </div>
             </section>
         </main>
-        <footer style="margin-top: -50px;" id="footer">
+        <footer class="footer">
             <div class="wrapper">
                 <div class="footerTop">
                     <div class="menuList">

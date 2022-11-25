@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-    <div id="root">
-        <header id="header">
+    <div class="root">
+        <header class="header">
             <div class="container">
                 <div class="top_header">
                     <div class="top_logo">
@@ -58,9 +58,10 @@
                 </div>
                 </div>
         </header>
-        <main id="main">
-            <section id="section">
+        <main class="main">
+            <section class="section">
                 <div class="banner">
+                    <div class="container">
                     <div class="banner_img">
                         <img style="width: 440px; height: 286px;" src="https://cdn.inflearn.com/public/courses/326674/cover/4657d793-56a4-42f3-9d44-dc88d125a49e">
                     </div>
@@ -76,193 +77,116 @@
                         </div>
                     </div>
                 </div>
+                </div>
                 <div class="menu">
                     <div class="container">
+                        <div class="classTitle">
                         <span class="span1">
                             <a href="">강의소개</a>
                         </span>
                         <span class="span2">
-                            <a href="">커리큘럼</a>
-                        </span>
-                        <span class="span3">
                             <a href="">수강평</a>
                         </span>
-                        <span class="span4">
+                        <span class="span3">
                             <a href="">수강전 문의</a>
                         </span>
-                        <span class="span5">
-                            <a style=" color: #1b1c1d;"  href="">커뮤니티</a>
-                        </span>
-                        <span class="span6">
-                            <a href="">새소식</a>
+                        <span class="span4">
+                            <a href="">커뮤니티</a>
                         </span>
                     </div>
+                    </div>
                 </div>
-                <div class="board_content">
-                    <div class="bd_content">
-                        <div class="content_body">
-                            <div class="content_main">
-                                <div class="question">
-                                    <div class="title">
-                                        <div class="item">
-                                            <input class="input" value type="text" spellcheck="false" size="large">
-                                        </div>
-                                    </div>
-                                    <div class="main">
-                                        <ul class="question_list">
-                                            <li class="question_conta1ner">
-                                                <div class="qst_detail">
-                                                    <div class="qst_left">
-                                                        <h3>질문있습니다</h3>
-                                                    </div>
-                                                    <p>
-                                                        질문을 해도 될까요?
-                                                        dkdkdkdididusnksadjfmasfilaskdmsakkd
-                                                        askdmaldkmaskdsidskadmlakdmskdisadmkas
-                                                        dkdkdkdididusnksadjfmasfilaskdmsakkd
-                                                        askdmaldkmaskdsidskadmlakdmskdisadmkas
-                                                        dkdkdkdididusnksadjfmasfilaskdmsakkd
-                                                        askdmaldkmaskdsidskadmlakdmskdisadmkas
-                                                    </p>
-                                                    <div class="qst_tag"></div>
-                                                    <div class="qst_footer">
-                                                        <span class="user_name">김동근</span>
-                                                        <span class="nbsp">&nbsp;·&nbsp;</span>
-                                                        <span class="time">12시간 전</span>
-                                                        <span class="nbsp">&nbsp;·&nbsp;</span>
-                                                        <span class="name">스프링 MVC 1편 - 백엔드 웹개발 기술</span>
-                                                    </div>
-                                                    <div class="qst_right">
-                                                        <div>
-                                                            <span class="count">1</span>
-                                                            <span class="description">답변</span>
-                                                        </div>
-                                                        <button class="button">
-                                                            <img style="width: 16px; height: 16px; " src="heart.png">
-                                                            0
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="question_conta1ner"></li>
-                                            <li class="question_conta1ner"></li>
-                                            <li class="question_conta1ner"></li>
-                                        </ul>
-                                    </div>
+                </section>
+                <section class="lectureBoard">
+                    <div class="container">
+                        <div class="boardListContent">
+                            <div class="boardListTitle">
+                                <ul class="order_pc">
+                                    <li class="e-order active">
+                                        <button class="">
+                                            · 최신순
+                                        </button>
+                                    </li>
+                                    <li class="e-order ">
+                                        <button class="">
+                                            · 댓글많은순
+                                        </button>
+                                    </li>
+                                    <li class="e-order ">
+                                        <button class="">
+                                            · 정확도순
+                                        </button>
+                                    </li>
+                                    <li class="e-order ">
+                                        <button class="">
+                                            · 좋아요순
+                                        </button>
+                                    </li>
+                                </ul>
+                                <div class="writeBtn">
+                                    <button class="write_btn">글쓰기</button>
                                 </div>
                             </div>
+                            <ul class="board_list">
+                                <li class="board_container">
+                                    <a href="">
+                                        <div class="board">
+                                            <div class="board_main">
+                                            <div class="board_title">
+                                                <h3 class="title_text">
+            회원가입 테스트 시 insert 진행 후 rollback합니다. (스프링 부트 2.7.5 기준)
+                                                </h3>
+                                            </div>
+                                            <p class="board_body">
+          영상에서는 회원가입 테스트 시 rollback 전에 insert를 하지 않았지만, 스프링 부트 2.7.5에서는 insert 진행 후 rollback합니다.MemberServiceT...
+                                            </p>
+                                            <div class="board_comment">
+                                                <span class="comment_count">0</span>
+                                                <span class="comment_txt">댓글</span>
+                                            </div>
+                                            <div class="board_tags"></div>
+                                            <div class="board_info">
+                                                <span class="board_user_name">김동근</span>
+                                                <span>&nbsp; · &nbsp;</span>
+                                                <span>7시간 전</span>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="board_list">
+                                <li class="board_container">
+                                    <a href="">
+                                        <div class="board">
+                                            <div class="board_main">
+                                            <div class="board_title">
+                                                <h3 class="title_text">
+                                                    개잼잇음
+                                                </h3>
+                                            </div>
+                                            <p class="board_body">
+                                                진짜 제대로 배우네요 모르는거 나오기 시작하니까 꿀잼
+                                            </p>
+                                            <div class="board_comment">
+                                                <span class="comment_count">0</span>
+                                                <span class="comment_txt">댓글</span>
+                                            </div>
+                                            <div class="board_tags"></div>
+                                            <div class="board_info">
+                                                <span class="board_user_name">김동근</span>
+                                                <span>&nbsp; · &nbsp;</span>
+                                                <span>7시간 전</span>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-            </section>
-        </main>
-        <!-- <footer style="margin-top: -50px;" id="footer">
-            <div class="wrapper">
-                <div class="footerTop">
-                    <div class="menuList">
-                        <div class="listTitle">
-                            강의목록
-                        </div>
-                        <div class="menuSublist">
-                            <a href="" >IT</a>
-                            <a href="" >외국어</a>
-                            <a href="" >강의추천</a>
-                        </div>
-                    </div>
-                    <div class="menuList">
-                        <div class="listTitle">
-                            공지사항
-                        </div>
-                        <div class="menuSublist">
-                            <a href="" >강의장 소개</a>
-                            <a href="" >수강생 문의</a>
-                            <a href="" >수강평 모아보기</a>
-                        </div>
-                    </div>
-                    <div class="menuList">
-                        <div class="listTitle">
-                            1대 1 문의
-                        </div>
-                        <div class="menuSublist">
-                            <a href="" >문의하기</a>
-                            <a href="" >문의답변</a>
-                            <a href="" >자주묻는 질문</a>
-                        </div>
-                    </div>
-                    <div class="menuList">
-                        <div class="listTitle">
-                            고객센터
-                        </div>
-                        <div class="menuSublist">
-                            <a href="" >공지사항</a>
-                            <a href="" >자주묻는 질문</a>
-                            <a href="" >저작권 신고센터</a>
-                            <a href="" >수료증 확인</a>
-                            <a href="" >강의 · 기능요청</a>
-                        </div>
-                    </div>
-                    <div class="menuList">
-                        <div class="listTitle">
-                            강의장
-                        </div>
-                        <div class="menuSublist">
-                            <a href="" >강의장 둘러보기</a>
-                            <a href="" >강의장 문의</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer_bottom">
-                    <div class="footer_bottom_left">
-                        <div class="footer_info_top">
-                            <span class="footerLogo">
-                                <a href="">
-                                    <img src="img/logo.png">
-                                </a>
-                            </span>
-                            <span>
-                                |
-                                <a href="" style="color: #bdbdbd; margin-left: 10px; margin-right: 10px;">개인정보취급방침</a>
-                            </span>
-                            <span>
-                                |
-                                <a href="" style="color: #bdbdbd; margin-left: 10px;">이용약관</a>
-                            </span>
-                        </div>
-                        <div class="footer_info_bottom">
-                            <div class="info_dropdown">
-                                <span> (주)인프랩 | </span> 
-                                <span> 대표자: 이형주 | </span> 
-                                <span> 사업자번호: 499-81-00612 </span> 
-                                <br>
-                                <span>통신판매업: 2018-성남분당B-0062 | </span>
-                                <span>개인정보보호책임자: 이동욱 |  </span>
-                                <span>이메일: info@inflearn.com  </span>
-                                <br>
-                                <span>주소: 경기도 성남시 분당구 대왕판교로 660 유스페이스 1A동 405호</span>
-                            </div>
-                                ©INFLAB. ALL RIGHTS RESERVED
-                        </div>
-                    </div>
-                    <div class="footer_bottom_right">
-                        <a href="">
-                            <img src="https://www.shouse.garden/images/common/u_in_m.png">
-                        </a>
-                        <a href="">
-                            <img src="https://www.shouse.garden/images/common/u_fb_m.png">
-                        </a>
-                        <a href="">
-                            <img src="https://www.shouse.garden/images/common/u_kc_m.png">
-                        </a>
-                        <a href="">
-                            <img src="https://www.shouse.garden/images/common/u_ap_m.png">
-                        </a>
-                        <a href="">
-                            <img src="https://www.shouse.garden/images/common/u_yt_m.png">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </footer> -->
+                </section>
+            </main>
     </div>
 </body>
 </html>

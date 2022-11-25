@@ -21,13 +21,17 @@ html{
     display: block;
 }
 
-#root{
+body{
+  overflow: hidden;
+}
+
+.root{
     box-sizing: inherit;
     display: block;
     text-rendering: optimizeSpeed;
     text-size-adjust: 100%;
 }
- #main{ 
+ .main{ 
     min-height: 800px;
     box-sizing: inherit;
     display: block;
@@ -36,6 +40,7 @@ html{
     font-weight: 400;
     line-height: 1.5;
  }
+ 
 
  .banner{
     /* box-sizing: inherit; */
@@ -72,13 +77,34 @@ html{
     
  }
 
+ .description_explanation{
+  margin-top: 12px; 
+  font-size: 22px; 
+  color: #3a3a40;
+ }
+
 a{
     color: #abb0b5;
     
     
  }
 
- .span2 , .span3 , .span4 , .span5 , .span6{
+ .content_main{
+  width: 810px;
+ }
+
+ .bannerImg{
+  width: 440px; 
+  height: 286px;
+ }
+
+ h6{
+  font-size: 16px; 
+  color: #495057; 
+  margin-top: 15px;
+ }
+
+ .span1 , .span2 , .span3 , .span4 , .span5 , .span6{
     margin-right: 30px;
     color:#1b1c1d;
     border-bottom-color:#1b1c1d;
@@ -93,26 +119,29 @@ a{
     box-sizing: inherit;
  }
 
- .span1{
-    margin-right: 30px;
-    color:#1b1c1d;
-    border-bottom-color:#1b1c1d;
-    font-weight: 700;
-    line-height: 1.47;
-    letter-spacing: -.3px;
-    font-size: 15px;
-    display: inline-block;
-    min-height: 33px;
-    padding: 15px 0 6px;
-    border-bottom: 2px solid gray;
-    font-style: inherit;
-    box-sizing: inherit;
+ .banner_explanation{
+  margin-bottom: 16px; 
+  padding: 16px; 
+  border-radius: 4px; 
+  background: gray; 
+  line-height: 1.69; 
+  color: #fff; 
+  font-size: 16px; 
+  text-align: center;
  }
 
- #div_btn{
-    position: relative;
+ .btn_all{
+  width: 300px;
+  height: 170px;
+  margin-left: 1080px;
+  margin-top: -110px;
+ }
+
+ .div_btn{
+    /* position: relative;
     left: 1050px;
-    top: -69px;
+    top: -125px; */
+    margin-bottom: 5px;
     background-color: #00c471;
     color: white;
     display: block;
@@ -124,7 +153,7 @@ a{
     border-radius: 4px;
     font-weight: 700;
  }
- #btn{
+ .btn{
     background: 0 0;
     font-size: inherit;
     font-family: inherit;
@@ -133,8 +162,42 @@ a{
     appearance: none;
     padding-left: 133px;
  }
- .btn{
+ .btn_in{
     display: none;
+ }
+
+ .div_btn2{
+  /* position: relative;
+  left: 1050px;
+  top: -120px; */
+  background-color: gray;
+  color: white;
+  display: block;
+  box-sizing: border-box;
+  width: 353px;
+  height: 50px;
+  padding: 14px 0 15px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-weight: 700;
+ }
+
+ .btn2{
+    background: 0 0;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 1.5;
+    cursor: pointer;
+    appearance: none;
+    padding-left: 110px;
+ }
+
+ .btn2_in{
+  display: none;
+ }
+
+ .btn_a{
+  color: #fff;
  }
 
  .box{
@@ -165,8 +228,26 @@ a{
    text-rendering: optimizeSpeed;
  }
 
- .a{
+ .program_detail{
    font-family: 'Happiness-Sans-Title';
+ }
+
+ .program_detail2{
+  position: relative; 
+  bottom: -90px;
+ }
+
+ .program_name{
+  color: white; 
+  position: relative; 
+  bottom: -95px;
+ }
+
+ .program_detail3{
+  font-size: 17px; 
+  color: white; 
+  position: relative; 
+  bottom: -100px;
  }
 
  .a_tag{
@@ -193,6 +274,7 @@ a{
  .section{
    display: flex;
    align-items: center;
+   margin-top: -30px;
    margin-bottom: 16px;
    padding: 32px 24px 32px 16px;
    border-radius: 8px;
@@ -230,3 +312,13 @@ a{
    color: #343a40;
    box-sizing: inherit;
  }
+
+ .container{
+   margin-top: 15px;
+   border-bottom: 1px solid #ccc;
+ }
+
+ .footer{
+  margin-top: 0px;
+  margin-bottom: 0;
+ } 
